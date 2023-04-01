@@ -1,0 +1,39 @@
+.above-the-fold-text-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    width: 46%;
+}
+
+.above-the-fold-text-container h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.1em;
+}
+.above-the-fold-text-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 28px;
+    width: 76%;
+    padding-top: 15px;
+}
+
+.our-services-button{
+    padding: 24px 47px;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to right, #c79f88, #b6876b, #c9a48f);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: fit-content;
+}
+a.our-services-button{
+    text-decoration: none;
+}

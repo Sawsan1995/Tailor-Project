@@ -1,0 +1,31 @@
+.rounded-text-continer {
+    position: absolute;
+    left: 7%;
+    top: 22%;
+}
+.rounded-text {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-transform: uppercase;
+    animation: rotatetext 20s linear infinite;
+
+}
+@keyframes rotatetext {
+    0%{
+        transform: rotate(-360deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.rounded-text span {
+    position: absolute;
+    transform-origin: 0 50px;
+    left: 50%;
+    color: #d4d5d8;
+    font-weight: 500;
+}

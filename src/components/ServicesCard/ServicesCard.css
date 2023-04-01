@@ -1,0 +1,65 @@
+.services-card-wrapper {
+    width: 26%;
+}
+.services-card-wrapper:hover .service-card-image img{
+    transform: scale(1.1);
+}
+
+.services-card-wrapper:hover .service-number{
+    background: white;
+    color: #c6a16e;
+}
+
+.services-card-wrapper:hover .service-text h1{
+    color: #c6a16e;
+}
+.service-card-image{
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-card-image img{
+    width: 100%;
+    transition:  0.7s ease;
+
+}
+
+.services-card-info{
+    position: relative;
+}
+
+.service-text{
+    padding-top: 45px;
+}
+.service-text h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600px;
+    color: #101A31;
+}
+
+.service-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400px;
+    color: #101A31;
+
+}
+
+.service-number{
+    border: 1px solid;
+    position: absolute;
+    left: -60px;
+    top: 41px;
+    width: 37px;
+    height: 37px;
+    background: #c6a16e;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+}

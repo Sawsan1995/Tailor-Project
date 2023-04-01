@@ -1,0 +1,15 @@
+.above-the-fold-section{
+    background-image: url("../../imgs/h1_hero.png");
+    height: 112vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.container{
+    background-image: linear-gradient(to right, rgba(16,26,48,0.7), rgba(16,26,49,1));
+    height: 112vh;
+    position: absolute;
+    width: 100%;
+
+}

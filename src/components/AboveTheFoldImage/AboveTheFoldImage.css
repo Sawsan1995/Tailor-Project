@@ -1,0 +1,9 @@
+.image-wrapper {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    top: 17%;
+}
+.image-wrapper img{
+    width: 100%;
+}

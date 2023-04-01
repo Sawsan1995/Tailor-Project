@@ -1,0 +1,7 @@
+.Services-section-wrapper {
+    max-width: 100%;
+    display: flex;
+    margin-top: 110px;
+    margin-left: 150px;
+    column-gap: 90px;
+}
