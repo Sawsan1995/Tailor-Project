@@ -29,11 +29,17 @@
     padding: 24px 47px;
     text-transform: uppercase;
     color: #fff;
-    background-image: linear-gradient(to right, #c79f88, #b6876b, #c9a48f);
+    background-image: linear-gradient(to left, #c79f88, #b6876b, #c9a48f);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     width: fit-content;
+    background-size: 200%;
+    cursor: pointer;
+    transition: 0.6s;
 }
 a.our-services-button{
     text-decoration: none;
+}
+a.our-services-button:hover{
+    background-position: right;
 }

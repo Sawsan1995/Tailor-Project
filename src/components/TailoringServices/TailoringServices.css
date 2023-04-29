@@ -1,0 +1,24 @@
+.tailoring-services-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    text-align: start;
+}
+
+.tailoring-services-card-wrapper h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    padding: 13px 0;
+}
+
+.tailoring-services-card-wrapper p {
+    width: 85%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #101a31;
+    font-weight: 400;
+    padding-top: 3px;
+}

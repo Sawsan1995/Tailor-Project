@@ -1,0 +1,34 @@
+.instagram-images-card {
+    position: relative;
+}
+
+.instagram-images-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color:rgba(1,10,68,0.5); 
+  z-index: 1;
+  visibility: hidden;
+
+}
+
+.instagram-images-card:hover::before {
+  visibility: visible;
+  transition: 0.5s ease;
+}
+
+.instagram-images-card:hover .instagram-icon{
+    visibility: visible;
+  }
+.instagram-icon{
+    visibility: hidden; 
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    left: 50%;
+    z-index: 2;
+    font-size: xx-large;
+  }

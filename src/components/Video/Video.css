@@ -1,0 +1,51 @@
+.video-react .video-react-big-play-button {
+    font-size: 3em;
+    line-height: 1.5em;
+    height: 3.5em;
+    width: 3.5em;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0;
+    cursor: pointer;
+    background-color: rgb(191 146 116);
+    border-radius: 50%;
+    transition: all 0.4s;
+    box-shadow: 0 0 0 71px rgb(223 145 150 / 20%);
+    border: 3px solid;
+}
+.video-react:hover .video-react-big-play-button, .video-react .video-react-big-play-button:focus {
+    outline: 0;
+    border-color: #fff;
+    background-color: rgb(190 146 120);
+    transition: all 0s;
+}
+
+.video-react .video-react-control:before, .video-react .video-react-big-play-button:before {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.video-react:hover .video-react-big-play-button, .video-react .video-react-big-play-button:focus {
+    outline: 0;
+    border-color: #fff;
+}
+.video-react .video-react-poster {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-color: #000000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+  }
