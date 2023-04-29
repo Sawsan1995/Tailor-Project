@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tailor-project/static/css/main.7835793a.css",
+    "main.js": "/tailor-project/static/js/main.67f12194.js",
+    "static/js/787.2b8cef52.chunk.js": "/tailor-project/static/js/787.2b8cef52.chunk.js",
+    "static/media/h1_hero.png": "/tailor-project/static/media/h1_hero.0763c60503b5edb06abe.png",
+    "static/media/video-bg.png": "/tailor-project/static/media/video-bg.ff15f4d1784ada14416d.png",
+    "static/media/visit_bg.png": "/tailor-project/static/media/visit_bg.8cc9417db578260039d1.png",
+    "static/media/h1_hero1.png": "/tailor-project/static/media/h1_hero1.fa50edfddecf301b571c.png",
+    "static/media/map.png": "/tailor-project/static/media/map.8b562ae9212b3aad79f7.png",
+    "static/media/instra1.png": "/tailor-project/static/media/instra1.a67e5d4156a664e7003c.png",
+    "static/media/instra2.png": "/tailor-project/static/media/instra2.1124a01e045f4e946c16.png",
+    "static/media/offers1.png": "/tailor-project/static/media/offers1.cc02850f207ce5f711ac.png",
+    "static/media/offers2.png": "/tailor-project/static/media/offers2.90d9c0f180c58daf0d20.png",
+    "static/media/offers3.png": "/tailor-project/static/media/offers3.dc208c4874d83d153d94.png",
+    "index.html": "/tailor-project/index.html",
+    "main.7835793a.css.map": "/tailor-project/static/css/main.7835793a.css.map",
+    "main.67f12194.js.map": "/tailor-project/static/js/main.67f12194.js.map",
+    "787.2b8cef52.chunk.js.map": "/tailor-project/static/js/787.2b8cef52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7835793a.css",
+    "static/js/main.67f12194.js"
+  ]
+}
