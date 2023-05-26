@@ -21,3 +21,8 @@ const text = document.querySelector('.rounded-text');
 text.innerHTML = text.innerText.split('').map((letter, i) =>
 `<span style="transform:rotate(${i * 10.8}deg)">${letter}</span>`
 ).join("");
+
+const loader = document.querySelector(".loader")
+window.addEventListener("load", ()=>{
+    loader.classList.add("loader-hidden")
+})

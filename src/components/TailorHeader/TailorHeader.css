@@ -47,7 +47,6 @@ ul.sub-menu-links{
     position: absolute;
     width: 150px;
     visibility: hidden;
-    transition: 0.6s ease-in;
 }
 
 .nav-links ul li:hover ul.sub-menu-links{

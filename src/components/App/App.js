@@ -9,11 +9,13 @@ import Video from '../Video/Video';
 import TestimonialSection from '../TestimonialSection/TestimonialSection'
 import FollowUsSection from '../FollowUsSection/FollowUsSection';
 import Footer from '../Footer/Footer';
+import Loader from '../Loader/Loader'
 
 
 function App() {
   return (
     <div className="App">
+      <Loader />
       <TailorHeader />
       <AboveTheFold />
       <ServicesSection />
